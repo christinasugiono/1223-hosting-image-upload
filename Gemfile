@@ -69,3 +69,5 @@ group :test do
 end
 gem "simple_form"
 gem "sassc-rails" # Uncomment this line
+gem "dotenv-rails", groups: [:development, :test]
+gem "cloudinary"
